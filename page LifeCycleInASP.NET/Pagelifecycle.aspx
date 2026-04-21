@@ -25,9 +25,9 @@
             <br />
             <asp:RadioButton ID="rbtEnglish" runat="server" AutoPostBack="true" GroupName="language" OnCheckedChanged="rbtEnglish_CheckedChanged" />English
             <asp:Label ID="lblEnglish" runat="server" ></asp:Label><br />
-            <asp:CheckBox ID="cbChess" runat="server" OnCheckedChanged="cbChess_CheckedChanged" />Chess<br />
-            <asp:CheckBox ID="cbTennis" runat="server" OnCheckedChanged="cbTennis_CheckedChanged" />Tennis<br />
-            <asp:CheckBox ID="cbCricket" runat="server" OnCheckedChanged="cbCricket_CheckedChanged" />Cricket<br />
+            <asp:CheckBox ID="cbChess" runat="server" AutoPostBack="true" OnCheckedChanged="cbChess_CheckedChanged" />Chess<br />
+            <asp:CheckBox ID="cbTennis" runat="server" AutoPostBack="true" OnCheckedChanged="cbTennis_CheckedChanged" />Tennis<br />
+            <asp:CheckBox ID="cbCricket" runat="server" AutoPostBack="true" OnCheckedChanged="cbCricket_CheckedChanged" />Cricket<br />
             
             <asp:Label ID="lblchessmsg" runat="server" ></asp:Label><br />
             <asp:Label ID="lbltennismsg" runat="server" ></asp:Label><br />
