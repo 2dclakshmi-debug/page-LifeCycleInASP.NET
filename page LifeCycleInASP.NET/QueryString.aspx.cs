@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace page_LifeCycleInASP.NET
+{
+    public partial class QueryString : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm1.aspx?firstname="+TextBox1.Text+"&password="+TextBox2.Text);
+        }
+    }
+}
