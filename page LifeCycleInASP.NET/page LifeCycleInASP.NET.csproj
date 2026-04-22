@@ -69,7 +69,9 @@
   <ItemGroup>
     <Content Include="Cookiedata.aspx" />
     <Content Include="cookies.aspx" />
+    <Content Include="Default2.aspx" />
     <Content Include="Pagelifecycle.aspx" />
+    <Content Include="session.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +89,13 @@
     <Compile Include="cookies.aspx.designer.cs">
       <DependentUpon>cookies.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Default2.aspx.cs">
+      <DependentUpon>Default2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default2.aspx.designer.cs">
+      <DependentUpon>Default2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pagelifecycle.aspx.cs">
       <DependentUpon>Pagelifecycle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,6 +104,13 @@
       <DependentUpon>Pagelifecycle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="session.aspx.cs">
+      <DependentUpon>session.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="session.aspx.designer.cs">
+      <DependentUpon>session.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
